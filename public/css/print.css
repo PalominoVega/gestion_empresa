@@ -1,0 +1,208 @@
+body .ticket{
+    font-family: Verdana;
+}
+@media print{
+    .oculto-impresion, .oculto-impresion *{
+        display: none !important;
+    }
+}
+
+.baucher table th,.baucher table td {
+    font-size: 20px;
+    padding-bottom: 5px;
+    /* font-family: 'Times New Roman'; */
+}
+  
+td,th,tr,table {
+    border-collapse: collapse;
+}
+td.producto,
+th.producto {
+    width: 75px;
+    max-width: 75px;
+}
+  
+td.cantidad,
+th.cantidad {
+    width: 70px;
+    max-width: 70px;
+    word-break: break-all;
+}
+.baucher table{
+    width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.baucher.ticket table{
+    width: 250px;
+}  
+.centrado {
+    text-align: center;
+    align-content: center;
+}
+  
+.baucher {
+    /* font-size: 11px; */
+    padding: 5px 15px;
+}
+.baucher p{
+    font-size: 12px !important;
+    line-height: 1.4;
+    margin-bottom: 0em;
+    margin-top: 0em;
+}
+.baucher h1,.baucher h2,.baucher h3,.baucher h4,.baucher h5,.baucher h6{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.cabecera td{
+    padding: 10px;
+}
+.cabecera{
+    display: grid;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+  
+img {
+    max-width:80px ;
+    height: inherit;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+body.print {
+    background-color: #fff;
+}
+table.bordered td{
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+
+.baucher::-webkit-scrollbar {
+    width: 10px;
+    height: 8px;
+  }
+  .baucher::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 4px;
+  }
+  .baucher::-webkit-scrollbar-thumb:active {
+    background-color: #999999;
+  }
+  
+  .baucher::-webkit-scrollbar-thumb{
+    background: #b3b3b3;
+  }
+  
+   /* Estilos track de scroll */
+  /* .baucher::-webkit-scrollbar-track {
+    background: #e1e1e1;
+    border-radius: 4px;
+  }
+   */
+  .baucher::-webkit-scrollbar-track, 
+  .baucher::-webkit-scrollbar-track {
+    background: #d4d4d4;
+  }
+
+  .btn{
+    border-radius: .2rem;
+    box-sizing: border-box;
+    border-width: 2px;
+    font-size: 14px;
+    font-weight: 500;
+    padding: .45rem .5rem;
+    -webkit-transition: all 150ms linear;
+    -moz-transition: all 150ms linear;
+    -o-transition: all 150ms linear;
+    -ms-transition: all 150ms linear;
+    transition: all 150ms linear;
+
+    color: #fff;
+    background-color: #004f22;
+    border: 1px solid #004f22;
+
+    margin-bottom: 8px;
+  }
+  select{
+    padding: .45rem .5rem;
+    border-radius: 5px;
+    width: 120px;
+  }
+.baucher2 *{
+    font-family: Verdana;
+    font-weight: 500;
+}
+.baucher2 b{
+    font-weight: bold
+}  
+.baucher2.ticket-55 table tr td,.baucher2.ticket-55 table tr th{
+    font-size: 11px;
+}
+.baucher2.ticket-55{
+    width: 190px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.baucher2.ticket-55 img{
+    max-height: 75px;
+    max-width: 200px !important;
+}
+.separador{
+    border-top: 2px dashed #000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.baucher2.ticket-55 table{
+    width: 100%;
+}
+.baucher2.ticket-55 table .precio{
+    width: 80px;
+    text-align: right;    
+}
+  
+.baucher2.ticket-80 table tr td,.baucher2.ticket-80 table tr th{
+    font-size: 14px;
+}
+.baucher2.ticket-80{
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.baucher2.ticket-80 img{
+    max-height: 75px;
+    max-width: 200px !important;
+}
+.separador{
+    border-top: 2px dashed #000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.baucher2.ticket-80 table{
+    width: 100%;
+}
+.baucher2.ticket-80 table .precio{
+    width: 80px;
+    text-align: right;    
+}
+.text-right{
+    text-align: right;
+}
+
+h5{
+    font-size: 12px !important;
+    font-weight: 100;
+    margin: 5px 0px;
+}
+
+.baucher2 table .enlace{
+    padding: 20px 0px !important;
+}
+#canvas{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
