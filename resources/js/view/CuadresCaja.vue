@@ -48,6 +48,11 @@ export default {
     },
     methods: {
         fecha(date){
+            console.log(date);
+            moment.locale('es-ES');
+            fecha_convertida = moment(date).format('llll');
+            
+            
             return moment(date,"YYYY-MM-DD HH:mm:ss").format('hh:mm a DD/MM/YYYY');
         }
     },
